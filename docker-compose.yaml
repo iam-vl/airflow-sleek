@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  airflow-sleek:
+    image: airflow-sleek:latest
+    volumes:
+      - ./airflow:/opt/airflow 
+    ports:
+      - "8666:8080"
+    command: airflow standalone 
