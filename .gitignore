@@ -1,2 +1,3 @@
-airflow/
+airflow/logs/
 __pycache__
+*password.txt
